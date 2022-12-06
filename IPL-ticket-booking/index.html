@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+      
+
+        <h1>IPL TICKET BOOKING SYSTEM</h1>
+        <div id="ticket_booking">
+            <select name="category" id="category">
+                <option value="none">Select Category</option>
+                <option value="VVIP">VVIP</option>
+                <option value="VIP">VIP</option>
+                <option value="General">General</option>
+            </select>
+            <input type="text" id="name" placeholder="Name">
+            <select name="gender" id="gender">
+                <option value="none">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+                <input type="number" id="age" placeholder="Age">
+            </select>
+            <button onclick="submit()">Submit</button>
+        </div>
+       <hr>
+        <div id="container"></div>
+</body>
+</html>
+
+<script src="index.js"></script>

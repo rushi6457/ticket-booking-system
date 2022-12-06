@@ -1,0 +1,148 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url("https://th.bing.com/th/id/OIP.8KOXyi6kkSDpNzOpKBR5mwHaHa?pid=ImgDet&w=700&h=700&rs=1");
+}
+
+h1{
+
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+#ticket_booking{
+
+    background-color: rgba(243, 240, 234, 0.73);
+    width: 50%;
+    height: 350px;
+    display: block;margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+   font-size: 20px;
+}
+
+#ticket_booking select{
+
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(235, 210, 162, 0.73);
+    margin-top: 20px;
+    border: none;
+    border-radius:10px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+} 
+#ticket_booking input {
+
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(235, 210, 162, 0.73);
+    border: none;
+    border-radius:10px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+   
+}
+button{
+    
+        width: 50%;
+        display: block;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(235, 210, 162, 0.73);
+        border: 1px solid black;
+        border-radius:10px;
+        margin-top: 20px;
+        font-size: 16px;
+
+}
+
+button:hover{
+
+    background-color: grey;
+    cursor: pointer;
+}
+
+#container{
+
+    width: 80%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+   margin-left: 150px;
+   border-style: dotted;
+   margin-bottom: 30px;
+  
+}
+hr{
+
+    margin-top: 30px;
+}
+#yourTicket{
+
+    font-size: 40px;
+    color: brown;
+    line-height: 30px;
+    padding: 10px;
+}
+#fN{
+
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 5px;
+}
+#sN{
+
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 5px;
+}
+#day{
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 5px;
+}
+#cat{
+
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 5px;
+}
+#name{
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 5px;
+}
+#gen{
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 5px;
+}
+#age{
+
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 5px;
+}
